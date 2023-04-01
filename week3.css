@@ -1,0 +1,78 @@
+body {
+  background-image: url("20221023_074651.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: sans-serif;
+}
+.main-header {
+  background-color: brown;
+}
+h1 {
+  text-align: center;
+  color: bisque;
+}
+.first-p {
+  text-align: center;
+}
+.form-div {
+  background-color: rgb(213, 143, 143);
+  opacity: 0.9;
+  width: 550px;
+  margin: auto;
+}
+form {
+  display: none;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  padding-top: 50px;
+  width: 500px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+fieldset {
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border-color: brown;
+}
+.main-button {
+  display: block;
+  margin: auto;
+  text-transform: uppercase;
+  color: brown;
+  font-weight: bold;
+  border-radius: 10px;
+  border-color: black;
+}
+
+.confirm-order-button {
+  text-transform: uppercase;
+  background-color: brown;
+  border-color: black;
+  color: bisque;
+  border-radius: 5px;
+}
+.cart {
+  height: 20px;
+  width: 20px;
+  fill: brown;
+}
+.cart-div {
+  display: flex;
+  justify-self: center;
+}
+
+.success svg {
+  height: 50px;
+  width: 50px;
+  fill: white;
+}
+
+.success {
+  display: none;
+  justify-self: center;
+
+  color: white;
+}
